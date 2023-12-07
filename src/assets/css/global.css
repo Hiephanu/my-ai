@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@layer base{
+    .heading{
+        @apply text-5xl font-semibold
+    }
+    .sub-heading{
+        @apply text-3xl font-semibold
+    }
+    .title{
+        @apply text-xl font-semibold
+    }
+    .subtext{
+        @apply text-gray
+    }
+}
